@@ -781,7 +781,7 @@ a.light-text:focus {
 .about-3 #about-1-carousel .item,
 .about-1 #about-3-carousel .item,
 .about-3 #about-3-carousel .item {
-  margin: 30px;
+  margin: 10px;
 }
 .about-1 #about-1-carousel .item .info .list-inline,
 .about-3 #about-1-carousel .item .info .list-inline,
@@ -793,20 +793,20 @@ a.light-text:focus {
 .about-3 #about-1-carousel .item .info p,
 .about-1 #about-3-carousel .item .info p,
 .about-3 #about-3-carousel .item .info p {
-  margin: 0 0 10px;
+  margin: 0 0 0px;
 }
 @media (min-width: 767px) {
   .about-1 #about-1-carousel .item,
   .about-3 #about-1-carousel .item,
   .about-1 #about-3-carousel .item,
   .about-3 #about-3-carousel .item {
-    width: 225px;
-    height: 225px;
-    margin: 15px auto;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
     border-radius: 50%;
     position: relative;
     cursor: default;
-    box-shadow: inset 0 0 0 15px rgba(244, 245, 247, 0.5);
+    box-shadow: inset 0 0 0 10px rgba(244, 245, 247, 0.5);
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -853,7 +853,7 @@ a.light-text:focus {
     width: inherit;
     height: inherit;
     border-radius: 50%;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -871,10 +871,10 @@ a.light-text:focus {
   .about-1 #about-3-carousel .item .info h3,
   .about-3 #about-3-carousel .item .info h3 {
     color: #f4f5f7;
-    font-size: 24px;
-    margin: 0 30px;
-    padding: 45px 0 0 0;
-    height: 120px;
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 25px 0 0 0;
+    height: 80px;
   }
   .about-1 #about-1-carousel .item .info p,
   .about-3 #about-1-carousel .item .info p,
@@ -884,10 +884,10 @@ a.light-text:focus {
     color: rgba(244, 245, 247, 0.8);
     padding: 10px 5px;
     font-style: italic;
-    margin: 0 30px;
+    margin: 0 15px;
     font-size: 14px;
-    border-top: 1px solid rgba(244, 245, 247, 0.5);
-    opacity: 0;
+    border-top: 1px dotted rgba(244, 245, 247, 0.5);
+    opacity: 1;
     -webkit-transition: all 0.4s ease-in-out 0.4s;
     -moz-transition: all 0.4s ease-in-out 0.4s;
     -o-transition: all 0.4s ease-in-out 0.4s;
@@ -898,7 +898,7 @@ a.light-text:focus {
   .about-3 #about-1-carousel .item .info ul,
   .about-1 #about-3-carousel .item .info ul,
   .about-3 #about-3-carousel .item .info ul {
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: all 0.4s ease-in-out 0.4s;
     -moz-transition: all 0.4s ease-in-out 0.4s;
     -o-transition: all 0.4s ease-in-out 0.4s;
@@ -922,6 +922,7 @@ a.light-text:focus {
 @media (min-width: 767px) {
   .about-img-1 {
     background-image: url(../img/demo-portraits/portrait-1.jpg);
+    
   }
   .about-img-2 {
     background-image: url(../img/demo-portraits/portrait-2.jpg);
@@ -931,6 +932,36 @@ a.light-text:focus {
   }
   .about-img-4 {
     background-image: url(../img/demo-portraits/portrait-4.jpg);
+  }
+  .about-img-5 {
+    background-image: url(../img/demo-portraits/portrait-5.jpg);
+  }
+  .about-img-6 {
+    background-image: url(../img/demo-portraits/portrait-6.jpg);
+  }
+  .about-img-7 {
+    background-image: url(../img/demo-portraits/portrait-7.jpg);
+  }
+  .about-img-8 {
+    background-image: url(../img/demo-portraits/portrait-8.jpg);
+  }
+  .about-img-9 {
+    background-image: url(../img/demo-portraits/portrait-9.jpg);
+  }
+  .about-img-10 {
+    background-image: url(../img/demo-portraits/portrait-10.jpg);
+  }
+  .about-img-11 {
+    background-image: url(../img/demo-portraits/portrait-11.jpg);
+  }
+  .about-img-12 {
+    background-image: url(../img/demo-portraits/portrait-12.jpg);
+  }
+  .about-img-13 {
+    background-image: url(../img/demo-portraits/portrait-13.jpg);
+  }
+  .about-img-14 {
+    background-image: url(../img/demo-portraits/portrait-14.jpg);
   }
 }
 .blog-1 .blog-col {
