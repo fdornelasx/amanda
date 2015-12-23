@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Spectrum</title>
+    <title>Unos - Serviços Musicais</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -789,11 +789,67 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+                            <div class="row control-group">
+                            Violão<select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3 ou mais</option>
+                            </select>
+                            Guitarra<select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3 ou mais</option>
+                            </select>
+                            Baixo<select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3 ou mais</option>
+                            </select>
+                            Teclado<select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3 ou mais</option>
+                            </select>
+                            Violino<select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3 ou mais</option>
+                            </select>
+                            Viola<select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3 ou mais</option>
+                            </select>
+                            Violoncelo<select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3 ou mais</option>
+                            </select>
+                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                              <!--      <label>Viol&atilde;o</label>
+                                    <a name="Violão" onclick="teste(v='violao')" class="btn btn-lg btn-primary btn-square btn-raised">Violão</a>
+                                    <a name="Violão" onclick="teste(v='guitarra')" class="btn btn-lg btn-primary btn-square btn-raised">Guitarra</a>
+                                    <a name="Baixo Elétrico" onclick="teste(v='beletrico')" class="btn btn-lg btn-primary btn-square btn-raised">Baixo Elétrico</a>
+                                    <a name="Baixo Acútico" onclick="teste(v='bacustico')" class="btn btn-lg btn-primary btn-square btn-raised">Baixo Acústico</a>
+                                    <a name="Teclado" onclick="teste(v='teclado')" class="btn btn-lg btn-primary btn-square btn-raised">Teclado</a>
+                                    <a name="Ukelele" onclick="teste(v='Ukelele')" class="btn btn-lg btn-primary btn-square btn-raised">Ukelele</a>
+                                -->
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
                             <br>
                             <div id="success"></div>
+                            
                             <div class="row">
                                 <div class="form-group col-xs-12">
-                                    <button type="submit" class="btn btn-lg btn-primary btn-square btn-raised">Enviar</button>
+                                    <button action="submit" class="btn btn-lg btn-primary btn-square btn-raised">Enviar</button>
                                 </div>
                             </div>
                         </form>
@@ -863,7 +919,26 @@
     <!-- Spectrum JavaScript Files -->
     <script src="assets/js/spectrum.nav.js"></script>
     <script src="assets/js/spectrum.js"></script>
+    <script>function teste(v)
+            {
+                switch(v)
+                {
+                    case "violao":
+                        alert("guitarra");
+                        break;
+                    case "guitarra":
+                        alert("violao");
+                        break;
+                    case v=="guitarra":
+                        alert(v);
+                        break;
+                    case v=="jujuba":
+                        alert(v);
+                        break;
 
+                }
+            }
+    </script>
 </body>
 
 </html>
